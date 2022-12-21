@@ -3,4 +3,6 @@ services:
   name: simple-node-server-ts
   branch: simple-node-server-ts 
   env: node
+  rootDir: ./
   buildCommand: yarn; yarn build
+  startCommand: yarn start
