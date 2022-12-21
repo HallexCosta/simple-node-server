@@ -1,0 +1,8 @@
+service:
+- type: web
+  name: simple-node-server
+  branch: main
+  env: node
+  rootDir: ./
+  buildCommand: yarn
+  startCommand: yarn start
