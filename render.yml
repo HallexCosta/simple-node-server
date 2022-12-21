@@ -1,0 +1,6 @@
+services:
+- type: web
+  name: simple-node-server-ts
+  branch: simple-node-server-ts 
+  env: node
+  buildCommand: yarn; yarn build
