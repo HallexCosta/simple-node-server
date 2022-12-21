@@ -29,7 +29,7 @@ export class HTTPController {
   }
 
   public handlerRequest({ request, response }: HandleRequestParams) {
-    const result = { message: "I'm alive!", code: 200 }
+    const result = { message: "I'm alive! Typescript Build", code: 200 }
 
     return response
       .writeHead(200, {
